@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+    background: #eee;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#god {
+    width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 30px;
+}
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+header,main,footer{
+    margin: 0 auto;
+}
+main {
+    /*margin-left: -20px;*/
+
+}
+main ul li {
+    width: 290px;
+}
+main ul {
+    width: 290px;
+    border: 1 solid white;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+}
+main input {
+    width: 288px;
+    height: 44px;
+    border: none;
+    /*background: #faffbd;*/
+    padding-left: 15px;
+    outline: none;
+    font-size: 16px;
+}
+main div{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 290px;
+    height: 44px;
+    border:none;
+    font-size: 16px;
+    line-height: 44px;
+    border-radius: 4px;
+    text-align: center;
+}
+main div:last-child {
+    height: 42px;
+    width: 290px;
+}
+.load {
+    color: #fff;
+    background: #146fdf;
+    border: none;
+}
+.one-click {
+    width: 292px;
+    color: #146fdf;
+    background-color: #e7e7e7;
+    border: 1px solid #9abbe3;
+}
+
+.username {
+    border-bottom: 1px solid #eaeaea;
+}
+footer {
+    width: 290px;
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+}
+span {
+    color: #246183;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 15px 10px;
+}
+span:first-child {
+    float: left;
+    margin-left: -10px;
+}
+span:last-child {
+    float: right;
+    margin-right: -10px;
+
+}
